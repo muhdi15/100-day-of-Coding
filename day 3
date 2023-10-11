@@ -1,0 +1,13 @@
+public class Code{
+  public static void main(String[] args){
+    System.out.print("Masukkan nilai anda");
+    Scanner sc = new Scanner(System.in);
+    int nilai = sc.nextInt();
+    if( nilai < 50){
+      System.out.println("anda gagal respon");
+    }else{
+        System.out.println("Anda Lulus");
+    }
+
+  }
+}
